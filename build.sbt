@@ -4,7 +4,8 @@ version := "1.0"
 
 scalaVersion := "2.10.1"
 
-libraryDependencies ++= Seq("com.github.axel22" %% "scalameter" % "0.3")
+libraryDependencies ++= Seq("com.github.axel22" %% "scalameter" % "0.3",
+                            "org.scalatest" % "scalatest_2.10" % "1.9.1" % "test")
 
 
 resolvers ++= Seq("snapshots" at "http://oss.sonatype.org/content/repositories/snapshots",
